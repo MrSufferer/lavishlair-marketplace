@@ -6,7 +6,7 @@ import { manageButton } from './Header.css'
 export function DAOLink() {
 
   return (
-    <Link href={`https://lavishlairdao.vercel.app/`} passHref>
+    <Link href={process.env.NEXT_PUBLIC_DAO_URL || 'https://lavishlairdao.vercel.app/'} passHref>
       <Button
         as="a"
         size="md"

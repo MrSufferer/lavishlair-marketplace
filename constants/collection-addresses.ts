@@ -55,13 +55,11 @@ const collections: string[] = [
 ]
 
 const goerliCollection: string[] = [
-  '0x28ba8af8c8730f4c39fb0ac9779372183fb4ead9',
-  '0x7c07a0572c40b1c5d58d9010265604862a45731e',
-  '0xf4729E73B5d6eFc3a68f35FC2450929e0a7DA19c',
+  '0xd0a21d074efc3393853accd481160a070a20cf32',
   '0x61ef03dde2429198d68e2eb18512ae14bfe5744d',
-  '0x46bef163d6c470a4774f9585f3500ae3b642e751',
-  '0xf4910c763ed4e47a585e2d34baa9a4b611ae448c',
-  '0x7c07a0572c40b1c5d58d9010265604862a45731e'
+  '0x275939bdd6052225dfe23cc895c99074ac7b1f05',
+  '0xf4729e73b5d6efc3a68f35fc2450929e0a7da19c',
+  '0xc1de309d7245916c647f2830aadfa95aa75fef9e'
 ]
 
 export const collectionAddresses = goerliCollection.map((collection) =>
