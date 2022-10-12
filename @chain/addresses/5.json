@@ -1,0 +1,16 @@
+{
+  "AsksOmnibus": "0x88eECe2AeA8c53dC6862617B3a9A3cB0295E2C6e",
+  "AsksV1_2": "0x60e0Fdc505bA832Cd4e1d0aB9EF1094812Ff67c7",
+  "ERC20TransferHelper": "0x8fceEb74d1824D64B19fDc44818a934836949255",
+  "ERC721TransferHelper": "0xDE242829AD8DA2b9649bc9f1F321dB29e591E79B",
+  "ReserveAuctionCoreErc20": "0x1ee71c10e7dd6c7fbdc891de4e902e041e1f5d33",
+  "ReserveAuctionCoreEth": "0x2506d9f5a2b0e1a2619bcce01cd3e7c289a13163",
+  "ReserveAuctionFindersErc20": "0x36ab5200426715a9dd414513912970cb7d659b3c",
+  "ReserveAuctionFindersEth": "0x29a6237e646a5a189db197a48cb96fa7944a32a2",
+  "ReserveAuctionListingErc20": "0x517f7721f3c3762f7048e03919761e027d900082",
+  "ReserveAuctionListingEth": "0xfcebe0788d5772df2cbcf5079815de98a4d62b09",
+  "RoyaltyEngineV1": "0xe7c9Cb6D966f76f3B5142167088927Bf34966a1f",
+  "WETH": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+  "ZoraModuleManager": "0x3d693C078d4d0A43bCE1FdE945BC6C850DaC5AeB",
+  "ZoraProtocolFeeSettings": "0xF8A694157F6C8ddA0b5243554bCA06e76Ec15D2A"
+}

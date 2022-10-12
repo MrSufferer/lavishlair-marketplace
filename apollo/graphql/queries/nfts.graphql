@@ -1,0 +1,10 @@
+query nfts($contractId: String!, $limit: Int, $after: ID!) {
+  tokens(first: $limit, where: { contract: $contractId, id_gt:  $after }) {
+    id,
+    tokenURI,
+    tokenID,
+    owner {
+      id
+    }
+  }
+}

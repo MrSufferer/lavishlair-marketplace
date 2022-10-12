@@ -1,0 +1,23 @@
+overwrite: true
+schema: ${NEXT_PUBLIC_NFT_GRAPHQL_URI}
+schemaPath: './apollo/__generated__/schema.graphql'
+documents: './apollo/graphql/**/*.graphql'
+extensions:
+  endpoints:
+    Mocki.io GraphQL Endpoint:
+      url: ${NEXT_PUBLIC_NFT_GRAPHQL_URI}
+      introspect: false
+generates:
+  ./apollo/__generated__/schema.graphql:
+    plugins:
+      - schema-ast
+  ./apollo/__generated__/schema.graphql.types.ts:
+    plugins:
+      - typescript
+  ./apollo/graphql/:
+    preset: 'near-operation-file'
+    presetConfig:
+      extension: '.graphql.types.ts'
+      baseTypesPath: '../__generated__/schema.graphql.types.ts'
+    plugins:
+      - 'typescript-operations'

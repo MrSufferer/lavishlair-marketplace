@@ -1,0 +1,15 @@
+query nft($id: ID!) {
+  token(id: $id) {
+    id,
+    tokenURI,
+    tokenID,
+    owner {
+      id
+    },
+    contract {
+      id,
+      name,
+      symbol
+    }
+  }
+}

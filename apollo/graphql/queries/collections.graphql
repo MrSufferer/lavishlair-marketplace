@@ -1,0 +1,10 @@
+query collections($containsId: [ID!]) {
+    tokenContracts(where: { id_in: $containsId }) {
+        id,
+        name,
+        symbol,
+        supportsEIP721Metadata,
+        numTokens,
+        numOwners
+    }
+}

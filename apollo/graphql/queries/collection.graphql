@@ -1,0 +1,10 @@
+query collection($address: ID!) {
+    tokenContract(id: $address) {
+        id,
+        name,
+        symbol,
+        supportsEIP721Metadata,
+        numTokens,
+        numOwners
+    }
+}
