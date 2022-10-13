@@ -17,7 +17,7 @@ export const Seo = ({
     <title>{title ? `${title} | ${APP_TITLE}` : APP_TITLE}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description || APP_DESCRIPTION} />
-    <link rel="icon" type="image/x-icon" href={FAVICON} />
+    <link rel="shortcut icon" href={FAVICON} />
     <meta property="og:url" content={url || BASE_URL} />
     <meta property="og:title" content={title || ''} />
     <meta property="og:description" content={description || APP_DESCRIPTION} />
