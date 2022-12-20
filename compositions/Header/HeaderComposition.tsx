@@ -14,7 +14,6 @@ export function HeaderComposition() {
   return (
     <Grid as="header" className={headerWrapper}>
       <NounsLink />
-      {isLarge && <DocsLink />}
       <DAOLink />
       <CollectionMenu />
       <ConnectButton />
